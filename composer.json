@@ -1,0 +1,29 @@
+{
+  "name": "tavy315/icecat",
+  "description": "Icecat API",
+  "type": "library",
+  "keywords": [
+    "php",
+    "Icecat"
+  ],
+  "homepage": "https://github.com/tavy315/icecat",
+  "license": "BSD-3-Clause",
+  "autoload": {
+ "psr-4": {
+      "Icecat\\": "src/"
+   }
+  },
+  "include-path": [
+    "library/"
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "authors": [
+    {
+      "name": "Octavian Matei",
+      "homepage": "http://www.octav.name",
+      "role": "Developer"
+    }
+  ]
+}
