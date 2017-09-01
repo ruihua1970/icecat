@@ -152,7 +152,6 @@ class Product
 
     protected function setBundled($bundled)
     {
-        // @todo: add it later
     }
 
     /**
