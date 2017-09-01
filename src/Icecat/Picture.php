@@ -36,11 +36,7 @@ class Picture
         $attr = $picture->attributes();
         $this->id = (int) $attr['ProductPicture_ID'];
         $this->logo = (bool) $attr['logo'];
-//        $this->no = (string) $attr['No'];
-//        $this->original = (string) $attr['Original'];
         $this->setHighPic($attr['Pic'], $attr['Size'], $attr['PicWidth'], $attr['PicHeight']);
-//        $this->setMediumPic($attr['Pic500x500'], $attr['Pic500x500Size'], $attr['Pic500x500Width'], $attr['Pic500x500Height']);
-//        $this->setLowPic($attr['LowPic'], $attr['LowSize'], $attr['LowPicWidth'], $attr['LowPicHeight']);
         $this->setThumbPic($attr['ThumbPic'], $attr['ThumbSize']);
     }
 
